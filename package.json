@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
-    "imagemin": "imagemin img/* -o dist/img",
-    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin news.html -d dist --htmlmin -o dist/news.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin preventionmethod.html -d dist --htmlmin -o dist/preventionmethod.html",
+    "imagemin": "imagemin img/* --out-dir='dist/img'",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin news.html -d dist --htmlmin -o dist/news.html && usemin preventionmethod.html -d dist --htmlmin -o dist/preventionmethod.html",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
   "author": "",
