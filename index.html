@@ -7,15 +7,14 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
         <!-- Bootstrap CSS -->
+        <!-- build:css css/main.css -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <meta name="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-        <!-- Css file -->
-        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- endbuild -->
+
+        
 
         <title>
             Covid-19 updates
@@ -200,7 +199,7 @@
                     <div class="col-md-4 col-xs-3">
                         <ul class="footer-nav list-unstyled">
                             <li class="nav-item"><a class="nav-link" href="preventionmethod.html">PREVENTIONMETHOD</a></li>
-                            <li class="nav-item "><a class="nav-link active" href="#">HOME</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
                             <li class="nav-item"><a class="nav-link" href="news.html">NEWS</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
                          </ul>
@@ -227,35 +226,13 @@
         </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-
-      function drawChart() {
-
-        var data = google.visualization.arrayToDataTable([
-          ['Country', 'Covid cases'],
-          ['USA',     43725604],
-          ['India',      33652745],
-          ['Brazil',  21343304],
-          ['UK', 7631233],
-          ['Russia',    7420913]
-        ]);
-
-        var options = {
-          title: 'My Daily Activities'
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-        chart.draw(data, options);
-      }
-    </script>
-
+    <script src="node_modules/bootstrap/ 8dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- endbuild -->
+    
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {
@@ -286,7 +263,6 @@
           ['Philippines', 2565487],
           ['Ukraine',  2447222],
           ['Malaysia', 2257584]
-          
         ]);
 
         var options = {};
@@ -302,6 +278,7 @@
         $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
+    
 
     </body>
 </html>
