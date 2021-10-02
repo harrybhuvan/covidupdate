@@ -1,0 +1,160 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+.content{
+    background-color: rgb(255, 255, 255);
+    color: rgb(240, 85, 85);
+    border-bottom: 1px ridge;
+    border-radius: 60px;
+    box-shadow:  0px 7px 5px 0px rgb(141, 141, 141);;
+}
+.cases{
+   padding: 20px;
+}
+.count{
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jumbotron{
+    background-color: rgb(245, 101, 101);
+    padding: 30px;
+    
+}
+.nav-top{
+    background-color: brown;
+}
+
+.nav-link:link{
+    color: rgb(253, 54, 54);
+}
+.nav-link:visited{
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover{
+    color: rgb(247, 91, 91);
+}
+.nav-link:active{
+    color: rgb(255, 217, 217);
+}
+
+.chart{
+    
+    margin:50px auto;
+    max-width: auto;
+}
+.piechart{
+    margin:50px auto;
+    max-width: auto;
+    
+}
+.footer{
+    background-color: brown;
+    color: white;
+    padding: 30px;
+}
+.nav-link{
+    color: white;
+    
+    
+}
+.footer-nav{
+    list-style: none; 
+    justify-content: center;
+    
+}
+.copyright{
+    word-spacing: 5px;
+}
+
+
+.row-content{
+    margin:50px auto;
+    padding: 40px 0px 40px 0px;
+    border-bottom: 1px ridge ;
+}
+.row-header{
+    margin: 0px auto;
+    padding: 0px;
+}
+.death{
+    background-color: rgb(207, 33, 33);
+}
+.death-cases{
+    color: rgb(199, 30, 30);
+}
+.explore{
+    background-color: rgba(168, 255, 194, 0.836);
+    margin: auto auto;
+}
+.indiacases{
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.705);
+    border-radius: 5px;
+    margin: 40px;
+    padding: 30px;
+    color: rgb(56, 236, 86);
+}
+.table-header{
+    background-color:brown;
+    color:rgb(255, 255, 255)
+}
+.news-update{
+    font-weight: lighter;
+    color: rgb(240, 85, 85);
+    border-bottom:1px ridge;
+    box-shadow: 0px 7px 5px 0px rgb(141, 141, 141);
+    border-radius: 60px;
+}
+.title{
+    font-size: 75px;
+    color:#ffffff
+}
+.title-update{
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.carousel-item {
+    height: 500px;
+    
+}
+.carousel{
+    box-shadow: 0px 15px 10px 0px rgba(0, 0, 0, 0.671);
+    min-width: auto;
+    max-width: auto;
+    background-color: rgb(27, 27, 27);
+}
+.carousel-head{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    height: 500px;
+}  
+.awarness{
+    margin: 80px auto;
+    border-bottom: 1px ridge ;
+}
+.icon{
+    border: 1px ridge white;
+    color: white;
+    box-shadow: 0px 0px 3px 0px white;
+    outline: none;
+}
+.card-top{
+    background-color: brown;
+}
+.explore-btn{
+    justify-content: center;
+    align-items: center;
+    align-self: center;  
+}
+body{
+    background-color: rgba(247, 247, 247, 0.87);
+}
