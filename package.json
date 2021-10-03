@@ -1,13 +1,14 @@
 {
-  "name": "j",
+  "name": "covidupdate",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "jpegtran-bin": "0.2.0",
-    "imagemin": "imagemin img/* --out-dir='dist/img'",
+    "imagemin": "imagemin img/* -o dist/img",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin news.html -d dist --htmlmin -o dist/news.html && usemin preventionmethod.html -d dist --htmlmin -o dist/preventionmethod.html",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
@@ -27,14 +28,5 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.12.9"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/harrybhuvan/covidupdate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/harrybhuvan/covidupdate/issues"
-  },
-  "homepage": "https://github.com/harrybhuvan/covidupdate#readme",
-  "description": ""
+  }
 }
